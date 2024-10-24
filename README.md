@@ -9,10 +9,10 @@
 ## Technologies
 
 - **Front-End:** Next.js, Material UI, Axios
-npm install
-npm run dev
+    -  npm install
+    -  npm run dev
 - **Back-End:** Node.js, Express, MySQL, Socket.IO
- - // please change password and database according your mysql
+  // please change password and database according your mysql
   - const db = mysql.createConnection({
     - host: 'localhost',
     - user: 'root',
