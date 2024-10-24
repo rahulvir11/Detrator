@@ -27,9 +27,9 @@ npm run dev
 
 ## API Endpoints
 - **Authentication** 
-   --POST /api/login
-    --Accepts a username and returns a session ID.
+- POST /api/login
+-   --Accepts a username and returns a session ID.
 
 - **Comments**
-    GET /api/comments  Fetches the list of comments from the MySQL database.
-    POST /api/comments  Accepts a comment with the associated username and stores it in the MySQL database.
+    - GET /api/comments  Fetches the list of comments from the MySQL database.
+    - POST /api/comments  Accepts a comment with the associated username and stores it in the MySQL database.
