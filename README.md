@@ -12,17 +12,17 @@
 npm install
 npm run dev
 - **Back-End:** Node.js, Express, MySQL, Socket.IO
-// please change password and database according your mysql
-- const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'root@123',
-  database: 'comments_db'
-- });
+ - // please change password and database according your mysql
+  - const db = mysql.createConnection({
+    - host: 'localhost',
+    - user: 'root',
+    - password: 'root@123',
+    - database: 'comments_db'
+  - });
 
-cd Backend
-npm install
-npm run dev
+ - cd Backend
+ - npm install
+ - npm run dev
 - **Database:** MySQL
 
 ## API Endpoints
